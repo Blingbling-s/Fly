@@ -61,8 +61,8 @@ public abstract class FlyingObject {
 
 
     public boolean shootBy(Bullet bullet) {
-        int x = bullet.x;  // ӵ
-        int y = bullet.y;  // ӵ
+        int x = bullet.x; 
+        int y = bullet.y; 
         return this.x < x && x < this.x + width && this.y < y && y < this.y + height;
     }
 }
