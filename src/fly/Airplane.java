@@ -20,7 +20,7 @@ public class Airplane extends  FlyingObject implements  Enemy {
 
     public boolean outOfBounds() {
         return this.y > 654;
-    }
+    
 
     public void step() {
         this.y += this.speed;
